@@ -17,8 +17,8 @@ class Product {
         for(const product of products) {
             this.insert(product)
         }
-        console.log("File loaded.")
-        console.log(this.list)
+        // console.log("File loaded.")
+        // console.log(this.list)
     }
 
     find(id) {
